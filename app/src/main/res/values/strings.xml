@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ZhevolLibraryDemo</string>
+    <string name="btnMessageDialog">消息弹框</string>
 </resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordEditText">
+        <attr name="zlIconShow" format="integer"/>
+        <attr name="zlIconHide" format="integer"/>
+        <attr name="zlIsShowPwd" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="RatingBar">
+        <attr name="starNum" format="integer"/>
+        <attr name="starDrawableNormal" format="reference"/>
+        <attr name="starDrawableProgress" format="reference"/>
+        <attr name="isIndicator" format="boolean"/>
+        <attr name="starSpacing" format="dimension"/>
+        <attr name="animation" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="TimeLineView">
+        <!-- 时间轴左偏移值 -->
+        <attr name="lineMarginLeft" format="dimension"/>
+        <!-- 时间轴上偏移值 -->
+        <attr name="lineMarginTop" format="dimension"/>
+        <!-- 线宽 -->
+        <attr name="lineStrokeWidth" format="dimension"/>
+        <!-- 线的颜色 -->
+        <attr name="lineLineColor" format="color"/>
+        <!-- 点的大小 -->
+        <attr name="linePointSize" format="dimension"/>
+        <!-- 点的颜色 -->
+        <attr name="linePointColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CountEditText">
+        <attr name="countPosition" format="enum">
+            <enum name="leftTop" value="0"/>
+            <enum name="leftBottom" value="1"/>
+            <enum name="rightTop" value="2"/>
+            <enum name="rightBottom" value="3"/>
+        </attr>
+        <attr name="maxLength" format="integer"/>
+        <attr name="textColorHint" format="color|reference"/>
+        <attr name="hint" format="string|reference"/>
+        <attr name="contentTextSize" format="dimension"/>
+        <attr name="contentTextColor" format="color|reference"/>
+        <attr name="countTextSize" format="dimension"/>
+        <attr name="countTextColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="AlertDialog">
+        <attr name="fullDark" format="reference|color" />
+        <attr name="topDark" format="reference|color" />
+        <attr name="centerDark" format="reference|color" />
+        <attr name="bottomDark" format="reference|color" />
+        <attr name="fullBright" format="reference|color" />
+        <attr name="topBright" format="reference|color" />
+        <attr name="centerBright" format="reference|color" />
+        <attr name="bottomBright" format="reference|color" />
+        <attr name="bottomMedium" format="reference|color" />
+        <attr name="centerMedium" format="reference|color" />
+        <attr name="layout" />
+        <attr name="listLayout" format="reference" />
+        <attr name="multiChoiceItemLayout" format="reference" />
+        <attr name="singleChoiceItemLayout" format="reference" />
+        <attr name="listItemLayout" format="reference" />
+        <attr name="progressLayout" format="reference" />
+        <attr name="horizontalProgressLayout" format="reference" />
+    </declare-styleable>
+    <attr name="alertDialogStyle" format="reference" />
+</resources>

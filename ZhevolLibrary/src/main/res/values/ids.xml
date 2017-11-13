@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- IDs -->
+    <item name="btnFinishActivity" type="id"/>
+    <item name="btnFinishAlert" type="id"/>
+
+    <!-- 顶部的Toolbar的ID -->
+    <item name="tbTopToolbar" type="id"/>
+    <item name="tvTopToolbarTitle" type="id"/>
+    <item name="btnTopToolbarRight" type="id"/>
+    <item name="cibTopToolbarRight" type="id"/>
+
+</resources>

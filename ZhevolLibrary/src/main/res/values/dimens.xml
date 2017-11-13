@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 间距大小 -->
+    <dimen name="dp_01">01.dp</dimen>
+    <dimen name="dp_02">02.dp</dimen>
+    <dimen name="dp_04">04.dp</dimen>
+    <dimen name="dp_08">08.dp</dimen>
+    <dimen name="dp_12">12.dp</dimen>
+    <dimen name="dp_16">16.dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+</resources>

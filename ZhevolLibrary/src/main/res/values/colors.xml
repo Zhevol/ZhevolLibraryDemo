@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF328CE6</color>
+    <!-- 通用的颜色值 -->
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorGrayEE">#FFEEEEEE</color>
+    <color name="colorGray33">#FF333333</color>
+    <color name="colorGray66">#FF666666</color>
+    <color name="colorGrayCC">#FFCCCCCC</color>
+</resources>
