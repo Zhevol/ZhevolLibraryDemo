@@ -30,7 +30,7 @@ android {
 ```
 dependencies {
     ...
-    compile 'com.zhevol.library:ZhevolLibrary:1.0.1'
+    compile 'com.zhevol.library:ZhevolLibrary:1.0.2'
     ...
 }
 ```
