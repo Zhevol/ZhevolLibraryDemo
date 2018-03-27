@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="PasswordEditText">
-        <attr name="zlIconShow" format="integer"/>
-        <attr name="zlIconHide" format="integer"/>
-        <attr name="zlIsShowPwd" format="boolean"/>
+        <attr name="zlIconShow" format="integer" />
+        <attr name="zlIconHide" format="integer" />
+        <attr name="zlIsShowPwd" format="boolean" />
     </declare-styleable>
     <declare-styleable name="RatingBar">
-        <attr name="starNum" format="integer"/>
-        <attr name="starDrawableNormal" format="reference"/>
-        <attr name="starDrawableProgress" format="reference"/>
-        <attr name="isIndicator" format="boolean"/>
-        <attr name="starSpacing" format="dimension"/>
-        <attr name="animation" format="boolean"/>
+        <attr name="starNum" format="integer" />
+        <attr name="starDrawableNormal" format="reference" />
+        <attr name="starDrawableProgress" format="reference" />
+        <attr name="isIndicator" format="boolean" />
+        <attr name="starSpacing" format="dimension" />
+        <attr name="animation" format="boolean" />
     </declare-styleable>
     <declare-styleable name="TimeLineView">
         <!-- 时间轴左偏移值 -->
-        <attr name="lineMarginLeft" format="dimension"/>
+        <attr name="lineMarginLeft" format="dimension" />
         <!-- 时间轴上偏移值 -->
-        <attr name="lineMarginTop" format="dimension"/>
+        <attr name="lineMarginTop" format="dimension" />
         <!-- 线宽 -->
-        <attr name="lineStrokeWidth" format="dimension"/>
+        <attr name="lineStrokeWidth" format="dimension" />
         <!-- 线的颜色 -->
-        <attr name="lineLineColor" format="color"/>
+        <attr name="lineLineColor" format="color" />
         <!-- 点的大小 -->
-        <attr name="linePointSize" format="dimension"/>
+        <attr name="linePointSize" format="dimension" />
         <!-- 点的颜色 -->
-        <attr name="linePointColor" format="color"/>
+        <attr name="linePointColor" format="color" />
     </declare-styleable>
     <declare-styleable name="CountEditText">
         <attr name="countPosition" format="enum">
-            <enum name="leftTop" value="0"/>
-            <enum name="leftBottom" value="1"/>
-            <enum name="rightTop" value="2"/>
-            <enum name="rightBottom" value="3"/>
+            <enum name="leftTop" value="0" />
+            <enum name="leftBottom" value="1" />
+            <enum name="rightTop" value="2" />
+            <enum name="rightBottom" value="3" />
         </attr>
-        <attr name="maxLength" format="integer"/>
-        <attr name="textColorHint" format="color|reference"/>
-        <attr name="hint" format="string|reference"/>
-        <attr name="contentTextSize" format="dimension"/>
-        <attr name="contentTextColor" format="color|reference"/>
-        <attr name="countTextSize" format="dimension"/>
-        <attr name="countTextColor" format="color|reference"/>
+        <attr name="maxLength" format="integer" />
+        <attr name="textColorHint" format="color|reference" />
+        <attr name="hint" format="string|reference" />
+        <attr name="contentTextSize" format="dimension" />
+        <attr name="contentTextColor" format="color|reference" />
+        <attr name="countTextSize" format="dimension" />
+        <attr name="countTextColor" format="color|reference" />
     </declare-styleable>
 
     <declare-styleable name="AlertDialog">
@@ -63,4 +63,19 @@
         <attr name="horizontalProgressLayout" format="reference" />
     </declare-styleable>
     <attr name="alertDialogStyle" format="reference" />
+
+    <declare-styleable name="CustomTextView">
+        <attr name="textSolidColor" format="color|reference" />
+        <attr name="textStrokeColor" format="color|reference" />
+        <attr name="textRadius" format="integer|dimension" />
+        <attr name="textLeftTopRadius" format="integer|dimension" />
+        <attr name="textLeftBottomRadius" format="integer|dimension" />
+        <attr name="textRightTopRadius" format="integer|dimension" />
+        <attr name="textRightBottomRadius" format="integer|dimension" />
+        <attr name="textStrokeWidth" format="integer|dimension" />
+        <attr name="textDrawable" format="reference" />
+        <attr name="textNormalTextColor" format="reference|color" />
+        <attr name="textSelectedTextColor" format="reference|color" />
+    </declare-styleable>
+
 </resources>
